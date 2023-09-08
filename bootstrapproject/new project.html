@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-light pt-5">
+     <!-- navigation -->
+     <nav
+     class="navbar navbar-white bg-white shadow navbar-expand-lg sm mb-3 fixed-top blur-filter"
+   >
+     <div class="container">
+       <a href="index.html" class="navbar-brand">
+         <img
+           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR03oAA6bwfrUe8mTuA3CiwMOrW77PdM8fAjgAleEo6g&s "
+           style="width: 50px; height: 50px"
+           class="rounded-circle"
+           alt="primeinspire image"
+         />
+         <strong>prime Inspire</strong>
+       </a>
+       <button
+         class="navbar-toggler border-0"
+         type="button"
+         data-bs-toggle="collapse"
+         data-bs-target="#navbar-supported-content"
+         aria-controls="navbar-supported-content"
+         aria-expanded="false"
+         aria-label="toggle navigation"
+       >
+         <span class="navbar-toggler-icon"></span>
+        </button>
+         <div class="collapse navbar-collapse" id="navbar-supported-content">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a
+                 href="index.html"
+                 class="nav-link active text-dark"
+                 aria-current="page"
+                 >Home</a
+               >
+               <li class="nav-item">
+                 <a href="about.html"
+                 class="nav-link">About</a>
+               </li>
+               <li class="nav-item">
+                 <a href="singlecourse.html" class="nav-link">Courses</a>
+               </li>
+               <li class="nav-item">
+                 <a href="faq.html" class="nav-link">FAQ</a>
+               </li>
+               <li class="nav-item">
+                 <a href="blog.html" class="nav-link">Blog</a>
+               </li>
+               <li lass="nav-item">
+                 <a href="contact.html" class="nav-link">Contact</a>
+               </li>
+           </li>
+         </ul>
+      
+       <div class="ms-auto me-n(1) d-grid d-md-block gap-2 mb-2 mb-md-0">
+         <a href="#" class="btn btn-danger btn-md align-items-center d-inline-flex align-center justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right me-2" viewBox="0 0 16 16">
+           <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+           <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+         </svg> Login button</a>
+       </div>
+         <div class="ms-auto me-1 d-grid d-md-block gap-2 mb-2 mb-md-0">
+          <a href="#" class="btn btn-md btn-warning form-control align-items-center d-inline-flex align-center justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill me-2" viewBox="0 0 16 16">
+           <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+           <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+         </svg> sign up for free</a>
+       </div>
+         
+         
+         <form role="search" class="d-flex">
+           <div class="input-group">
+             <input class="form-control form-control-sm"
+             placeholder="search for..."
+             aria-label="search for..."
+             type="search">
+             <button type="submit" class="btn btn-success ">
+               <svg
+                 xmlns="http://www.w3.org/2000/svg"
+                 width="16"
+                 height="16"
+                 fill="currentColor"
+                 class="bi bi-search"
+                 viewBox="0 0 16 16"
+               >
+                 <path
+                   d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                 />
+               </svg>
+             </button>
+           </div>
+         </form>
+       </div>
+     </div>
+   </nav>
+  
+   
+   <!-- control -->
+   <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="background.jpg" alt="background-image" style="width:100%" class="d-block">
+      </div>
+      <div class="carousel-item">
+        <img src="image-way.jpg" alt="background-image" style="width:100%" class="d-block">
+      </div>
+      <div class="carousel-item">
+        <img src="background.jpg" alt="background-image" style="width:100%" class="d-block">
+      </div>
+    </div>
+    <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+   </div>
+   <!-- control -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="script.js"></script>
+  </body>
+</html>
